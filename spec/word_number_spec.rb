@@ -22,4 +22,8 @@ describe('Fixnum#word_number') do
   it('take any 2 digit number from 21 to 30 and returns the written word') do
     expect((29).word_number).to(eq("twenty nine"))
   end
+
+  it('take any 2 digit number from 31 to 99 and returns the written word') do
+    expect((99).word_number).to(eq("ninety nine"))
+  end
 end

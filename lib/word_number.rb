@@ -4,7 +4,7 @@ class Fixnum
 
     teens = {"10" => "ten", "11" => "eleven", "12" => "twelve", "13" => "thirteen", "14" => "fourteen", "15" => "fifteen", "16" => "sixteen", "17" => "seventeen", "18" => "eighteen", "19" => "nineteen" }
 
-    tens = {"2" => "twenty"}
+    tens = {"2" => "twenty", "3" => "thirty", "4" => "forty", "5" => "fifty", "6" => "sixty", "7" => "seventy", "8" => "eighty", "9" => "ninety"}
 
 
     reversed_input_array = self.to_s.split("").reverse()
