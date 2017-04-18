@@ -9,4 +9,8 @@ describe('Fixnum#word_number') do
   it('take any single digit number and return a word') do
     expect((9).word_number).to(eq("nine"))
   end
+
+  it('take 10 and return "ten"') do
+    expect((10).word_number).to(eq("ten"))
+  end
 end

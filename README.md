@@ -4,7 +4,7 @@
 |----------|:--------:|:--------:|
 |The program takes 1 and returns "one"| 1 | "one" |
 |The program takes any single digit number and returns the written word| 9 | "nine" |
-|The program takes 10 and returns eleven| 10 | "ten" |
+|The program takes 10 and returns ten| 10 | "ten" |
 |The program takes any 2 digit number from 10 to 20 and returns the written word| 20 | "twenty" |
 |The program takes 21 and returns "twenty-one"| 21 | "twenty one" |
 |The program takes any 2 digit number from 21 to 30 and returns the written word| 29 | "twenty nine" |
