@@ -1,5 +1,6 @@
 require('rspec')
 require('word_number')
+require('pry')
 
 describe('Fixnum#word_number') do
   it('take 1 and return "one"') do
