@@ -2,7 +2,11 @@ require('rspec')
 require('word_number')
 
 describe('Fixnum#word_number') do
-  it('take a single digit number and return a word') do
+  it('take 1 and return "one"') do
     expect((1).word_number).to(eq("one"))
+  end
+
+  it('take any single digit number and return a word') do
+    expect((9).word_number).to(eq("nine"))
   end
 end
